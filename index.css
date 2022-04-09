@@ -676,6 +676,7 @@ body:not(.user-is-tabbing) a:focus {
     height: 2700px;
     text-align: center;
     
+    
   }
   article {
     padding: 0 0;
@@ -744,9 +745,7 @@ section:nth-of-type(1) article:nth-of-type(1) h3 {
 }
 
 
-.work2{
-    margin-top: 50px;
-}
+
 
 
 .titre__project{
@@ -755,8 +754,9 @@ section:nth-of-type(1) article:nth-of-type(1) h3 {
 }
 
 .article__projet{
-    padding-top: -10px;
-    padding-bottom: 50vh;
+    margin-top: -40px;
+    padding-bottom: 7vh;
+    background-color: #000000;
 }
 
 
@@ -768,4 +768,8 @@ section:nth-of-type(1) article:nth-of-type(1) h3 {
     text-shadow: 0px 0px 4px #000000;
 
   
+}
+
+.footer__project{
+    margin-top: 10vh;
 }
