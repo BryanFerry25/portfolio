@@ -690,61 +690,8 @@ body:not(.user-is-tabbing) a:focus {
 section:nth-of-type(1) article:nth-of-type(1) h1,
 section:nth-of-type(1) article:nth-of-type(1) h3 {
   color: #fff;
-  margin: 1em 0 0.5em 0
+  margin: 1em 0 0.5em 0;
 }
-
-#parallax-img-1 {
-  width: 40px;
-  height: auto;
-}
-#parallax-img-2 {
-  width: 160px;
-  height: auto;
-  transform:rotate(-30deg);
-  -ms-transform:rotate(-30deg); /* IE 9 */
-  -webkit-transform:rotate(-30deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-3 {
-  width: 50px;
-  height: auto;
-  transform:rotate(-12deg);
-  -ms-transform:rotate(-12deg); /* IE 9 */
-  -webkit-transform:rotate(-12deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-4 {
-  width: 140px;
-  height: auto;
-  transform:rotate(14deg);
-  -ms-transform:rotate(14deg); /* IE 9 */
-  -webkit-transform:rotate(14deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-5 {
-  width: 40px;
-  height: auto;
-  transform:rotate(14deg);
-  -ms-transform:rotate(14deg); /* IE 9 */
-  -webkit-transform:rotate(14deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-6 {
-  width: 80px;
-  height: auto;
-  transform:rotate(7deg);
-  -ms-transform:rotate(7deg); /* IE 9 */
-  -webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-7 {
-  width: 50px;
-  height: auto;
-  transform:rotate(-12deg);
-  -ms-transform:rotate(-12deg); /* IE 9 */
-  -webkit-transform:rotate(-12deg); /* Opera, Chrome, and Safari */
-}
-#parallax-img-8 {
-  width: 150px;
-  height: auto;
-}
-
-
 
 
 
@@ -772,4 +719,29 @@ section:nth-of-type(1) article:nth-of-type(1) h3 {
 
 .footer__project{
     margin-top: 10vh;
+}
+
+@media(max-width: 1240px) {
+    .parallax-img-container {
+        
+        padding: var(--gutter-normal);
+
+    }
+    .titre__page{
+        line-height:5rem;
+        font-size: 40px;
+    
+    }
+    .parallax-move{
+        max-width: 50%;
+        height: 100%;
+        
+    }
+
+    .test{
+        height: 1000px;
+    }
+    .titre__project{
+        font-size:50px;
+    }
 }
