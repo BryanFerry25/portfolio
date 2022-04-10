@@ -373,7 +373,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 500px) {
     .nav {
         justify-content: center;
-        font-size: var(--font-size-small);
+        font-size: 15px;
     }
 }
 
@@ -744,4 +744,13 @@ section:nth-of-type(1) article:nth-of-type(1) h3 {
     .titre__project{
         font-size:50px;
     }
+    .btn__voirprojet{
+        font-size: 3rem;
+    }
+    .about__photo-container{
+        padding-left: 10vh;
+    }
+
+
 }
+
